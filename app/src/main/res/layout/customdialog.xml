@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    >
+<TextView
+    android:padding="16dp"
+    android:layout_gravity="center"
+    android:background="#FF0"
+    android:textColor="#00F"
+    android:textSize="18sp"
+    android:text="Add Note"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+<EditText
+    android:maxLines="5"
+    android:lines="5"
+    android:padding="16dp"
+    android:gravity="top"
+    android:id="@+id/text_Add_Note"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/button_save"
+        android:layout_margin="8dp"
+        android:textColor="#FFF"
+        android:backgroundTint="@color/design_default_color_on_secondary"
+        android:text="Save"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

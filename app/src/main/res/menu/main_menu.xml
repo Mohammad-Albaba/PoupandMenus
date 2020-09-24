@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="File">
+        <menu>
+            <item android:id="@+id/copy" android:title="Copy"/>
+            <item android:id="@+id/paste" android:title="Paste"/>
+
+        </menu>
+    </item>
+    <group android:id="@+id/theme_items" android:checkableBehavior="single">
+        <item
+            android:id="@+id/dark"
+            android:title="Dark" />
+        <item
+            android:id="@+id/light"
+            android:title="Light" />
+    </group>
+    <item
+        android:icon="@drawable/ic_baseline_star_border_24"
+        app:showAsAction="always"
+        android:id="@+id/Settings"
+        android:title="Setting" />
+    <item
+        android:id="@+id/Abouts"
+        android:title="Abouts" />
+
+</menu>
